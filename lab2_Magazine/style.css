@@ -1,0 +1,292 @@
+/* Importing Google Fonts for typography */
+@import url('');
+
+/* 2.1 - Advanced Selectors and Page Structure */
+* {
+    margin: ;
+    padding: ;
+    box-sizing: ;
+}
+
+body {
+    font-family: ;
+    line-height: ;
+    color: ;
+}
+
+h1, h2, h3 {
+    font-family: ;
+}
+
+h1 {
+    font-size: ;
+    text-transform: ;
+    letter-spacing: ;
+}
+
+p {
+    font-size: ;
+}
+
+a {
+    text-decoration: ;
+    color: ;
+}
+
+#site-header {
+    background-color: ;
+    border-bottom: ;
+    padding: ;
+}
+
+#site-footer {
+    background-color: ;
+    color: ;
+    text-align: ;
+    padding: ;
+    margin-top: ;
+}
+
+.logo {
+    max-width: ;
+    height: ;
+    display: ;
+    margin: ;
+}
+
+nav ul li a {
+    color: ;
+    font-weight: ;
+    padding: ;
+    transition: ;
+}
+
+nav ul li a:hover {
+    background-color: ;
+    border-radius: ;
+}
+
+.articles > .article-card {
+    margin-bottom: ;
+}
+
+input[type="email"] {
+    border: ;
+    padding: ;
+    border-radius: ;
+    width: ;
+    max-width: ;
+}
+
+/* 2.2 - Colors, Backgrounds, and Layout Styling */
+.hero {
+    background: ;
+    text-align: ;
+    padding: ;
+    color: ;
+}
+
+header nav {
+    background-color: ;
+    padding: ;
+}
+
+nav ul {
+    display: ;
+    justify-content: ;
+    list-style: ;
+}
+
+nav ul li {
+    margin: ;
+}
+
+.article-card {
+    background-color: ;
+    padding: ;
+    border: ;
+    border-radius: ;
+    transition: ;
+}
+
+.article-card:hover {
+    transform: ;
+}
+
+.newsletter {
+    background-color: ;
+    padding: ;
+    text-align: ;
+    margin-top: ;
+}
+
+.newsletter form {
+    display: ;
+    justify-content: ;
+    gap: ;
+    flex-wrap: ;
+}
+
+.newsletter button {
+    background-color: ;
+    color: ;
+    border: ;
+    padding: ;
+    border-radius: ;
+    cursor: ;
+    transition: ;
+}
+
+.newsletter button:hover {
+    background-color: ;
+}
+
+/* 2.3 - Typography & Text Effects */
+.hero h1 {
+    font-size: ;
+    text-transform: ;
+    letter-spacing: ;
+    margin-bottom: ;
+}
+
+.intro {
+    font-style: ;
+    line-height: ;
+    font-size: ;
+}
+
+.article-card h3::before {
+    content: ;
+    color: ;
+}
+
+.article-card h3 {
+    transition: ;
+}
+
+.article-card:hover h3 {
+    color: ;
+}
+
+.newsletter h2 {
+    position: ;
+    display: ;
+    margin-bottom: ;
+}
+
+.newsletter h2::after {
+    content: ;
+    position: ;
+    bottom: ;
+    left: ;
+    width: ;
+    height: ;
+    background-color: ;
+}
+
+/* 2.4 - Homepage Styling */
+.articles {
+    display: ;
+    flex-wrap: ;
+    justify-content: ;
+    padding: ;
+    gap: ;
+}
+
+.article-card {
+    flex: ;
+    min-width: ;
+}
+
+/* 2.5 - Adding Images & Media Styling */
+.article-card img {
+    max-width: ;
+    height: ;
+    border-radius: ;
+    box-shadow: ;
+    transition: ;
+}
+
+.article-card img:hover {
+    transform: ;
+}
+
+.hero {
+    background-image: ;
+    background-size: ;
+    background-position: ;
+    position: ;
+}
+
+.hero::before {
+    content: ;
+    position: ;
+    top: ;
+    left: ;
+    width: ;
+    height: ;
+    background: ;
+}
+
+.hero h1, .hero p {
+    position: ;
+    z-index: ;
+}
+
+/* 2.6 - Multi-Page Navigation (Articles Page) */
+.article-item {
+    display: ;
+    align-items: ;
+    gap: ;
+    padding: ;
+    border-bottom: ;
+}
+
+.article-item img {
+    max-width: ;
+    height: ;
+    border-radius: ;
+    box-shadow: ;
+    transition: ;
+}
+
+.article-item img:hover {
+    transform: ;
+}
+
+.article-content {
+    flex: ;
+}
+
+/* Responsive Design */
+@media (max-width: ) {
+    nav ul {
+        flex-direction: ;
+        align-items: ;
+    }
+
+    nav ul li {
+        margin: ;
+    }
+
+    .article-card {
+        flex: ;
+    }
+
+    .article-item {
+        flex-direction: ;
+        text-align: ;
+    }
+
+    .hero h1 {
+        font-size: ;
+    }
+
+    .hero p {
+        font-size: ;
+    }
+
+    .logo {
+        max-width: ;
+    }
+}
